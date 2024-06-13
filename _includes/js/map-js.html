@@ -192,7 +192,7 @@ default:
     function objectMarkers(feature,latlng){
    var marker = new L.CircleMarker(latlng, {
             radius: 5,
-            color: getColor(feature,
+            color: getColor(feature),
             alt: feature.properties.title,
         });
         return marker;
